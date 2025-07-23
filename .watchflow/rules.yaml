@@ -1,0 +1,8 @@
+rules:
+  - id: "description-requirement"
+    name: "Pull Requests Must Have a Description"
+    description: "Pull requests must have a description"
+    enabled: true
+    severity: "medium"
+    event_types: ["pull_request"]
+    parameters: {}
